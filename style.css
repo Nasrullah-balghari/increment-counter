@@ -1,0 +1,36 @@
+i {
+    font-size: 50px;
+    color: white;
+}
+body{
+    background-color: #192a56;
+}
+span{
+    color: white;
+    font-size: 20px;
+    font-weight: 900px;
+    font-family: "Trirong", serif;
+   
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    text-align: center;
+}
+div{
+    padding: 15px;
+}
+.counter {
+    font-size: 50px;
+    color: #f1c40f;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 470px){
+    section{
+        flex-direction: column;
+    }
+}
